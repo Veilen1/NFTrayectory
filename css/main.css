@@ -1,3 +1,7 @@
+/* Constantes */
+#violetblack{
+  background-color: #37325b;
+}
 .bgcMain {
 background-color: #663dff;
 background-image: linear-gradient(319deg, #000000 0%, #4e0075 63%, #c35bff 100%);
@@ -7,6 +11,12 @@ height: 100%;
 @font-face {
   font-family: typingmachine;
   src: url(../assets/JMH\ Typewriter.ttf);
+}
+.gridhorarios{
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+;
 }
 
 /* Efecto Typing Machine */
@@ -116,7 +126,10 @@ height: 100%;
     transform: translateX(0px); } }
 
 .videosInfo {
-  animation: videosInfo 0.75s cubic-bezier(0.2, 0.13, 0.77, 1.09) both; }
+  animation: videosInfo 0.75s cubic-bezier(0.2, 0.13, 0.77, 1.09) both;
+background-color: #37325b;
+border-radius: 10px; 
+border-color: white;}
 
 @keyframes videosInfo {
   0% {
